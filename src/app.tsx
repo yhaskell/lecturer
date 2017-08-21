@@ -1,6 +1,10 @@
-import * as React from 'react';
+import * as React from 'react'
+import { webFrame } from 'electron'
 
-export class App extends React.Component<undefined, undefined> {
+// Disable pinch zoom
+webFrame.setZoomLevelLimits(1, 1)
+
+export class App extends React.Component<{}, {}> {
   render() {
     return (
       <div>
