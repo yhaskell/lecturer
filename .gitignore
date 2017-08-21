@@ -1,0 +1,13 @@
+# build output
+dist
+out
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# javascript files and maps
+*.js
+*.js.map
