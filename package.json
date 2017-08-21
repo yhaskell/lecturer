@@ -46,24 +46,25 @@
     }
   },
   "dependencies": {
-    "@types/electron": "^1.4.30",
-    "@types/electron-devtools-installer": "^2.0.2",
-    "@types/react": "^0.14.55",
-    "@types/react-dom": "^0.14.20",
     "electron-compile": "^6.4.1",
-    "electron-devtools-installer": "^2.0.1",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "react-hot-loader": "^3.0.0-beta.6",
-    "tslib": "^1.4.0"
+    "electron-devtools-installer": "^2.2.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "tslib": "^1.7.1"
   },
   "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/electron-devtools-installer": "^2.0.2",
+    "@types/react": "^15.6.1",
+    "@types/react-dom": "^15.5.3",
+    "@types/react-hot-loader": "^3.0.3",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "electron-forge": "^3.2.0",
     "electron-prebuilt-compile": "1.7.5",
-    "tslint": "^5.1.0",
-    "typescript": "~2.2.2"
+    "tslint": "^5.6.0",
+    "typescript": "^2.4.2"
   }
 }
